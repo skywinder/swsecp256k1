@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'swsecp256k1'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'An library of secp256k1 that can be used in iOS project.'
   s.description      = <<-DESC
 Based an optimized C library for EC operations on curve secp256k1, [bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1)
