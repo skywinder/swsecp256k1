@@ -14,7 +14,7 @@ This library is a work in progress and is being used to research best practices.
   s.source           = { :git => 'https://github.com/skywinder/swsecp256k1.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '6.0'
-  s.source_files = 'swsecp256k1/framework/swsecp256k1-umbrella.h','swsecp256k1/framework/secp256k1.framework/Versions/A/Headers/*.h', 'swsecp256k1/framework/swsecp256k1.modulemap'
+  s.source_files = 'swsecp256k1/framework/secp256k1.framework/Versions/A/Headers/*.h', 'swsecp256k1/framework/swsecp256k1.modulemap'
   s.ios.vendored_frameworks = 'swsecp256k1/framework/secp256k1.framework'
-  s.public_header_files = 'swsecp256k1/framework/secp256k1.framework/Versions/A/Headers/*.h',  'swsecp256k1/framework/*.h'
+  s.public_header_files = 'swsecp256k1/framework/secp256k1.framework/Versions/A/Headers/*.h'
 end
