@@ -1,5 +1,5 @@
 PODS:
-  - swsecp256k1 (0.1.1)
+  - swsecp256k1 (0.1.3)
 
 DEPENDENCIES:
   - swsecp256k1 (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  swsecp256k1: 08f61a6421d38d4c44435abb830d552af7593cd5
+  swsecp256k1: 45ee7142e330906527e5ace81d3990ab58c915cf
 
 PODFILE CHECKSUM: 06c310b58e4109aeb2d88de49b24da4058cf0e66
 
